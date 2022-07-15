@@ -5,6 +5,7 @@ import linkedin from "./images/Linkedin.png";
 
 function App() {
 
+
   const [valor, setValor] = useState(0) 
   const result = (valor/0.82).toFixed(2);
   
@@ -62,16 +63,17 @@ function App() {
       <input   
       style={{
         backgroundColor: '#363636',
-        width: 200,
+        width: 150,
         height:60,
         marginBottom: 15,
         marginTop:15,
         color: '#D3D3D3',
         fontSize: 40,
-        borderRadius: 8,
+        borderRadius: 12,
         marginRight:65,
         textAlign:'center',
-        opacity: 0.9
+        opacity: 0.9,
+        border:'none'
         
         
      }}
@@ -98,7 +100,7 @@ function App() {
     fontSize:30,
     fontStyle:'normal',
     fontWeight: 'bold',
-    marginTop:25,
+    marginTop:10,
     textAlign: "center"
       }}
       >Valor que deve ser anunciado:</h1>
@@ -120,7 +122,7 @@ function App() {
         fontFamily: 'Arial, Helvetica, sans-serif',
         textAlign: 'center',
         marginBottom: 20,
-        marginTop:100        
+        marginTop:50        
        }}>
 
     <a  href="https://www.linkedin.com/in/matheus-dannebrock-906276153/" target='_blank'> 
@@ -142,13 +144,10 @@ function App() {
     marginBottom: 10,
     cursor: "pointer"
 
-
-
     }}>
 
     </button> 
     </a>
-
     
     <h1 
     style={{
@@ -159,7 +158,6 @@ function App() {
 
       </div>
   </div>
-  
 
 
   </div>
