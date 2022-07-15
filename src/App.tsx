@@ -5,18 +5,9 @@ import linkedin from "./images/Linkedin.png";
 
 function App() {
 
-  const [valor, setValor] = useState("")
-  const [resultado, setResultado] = useState<number>()
-
-  const calcular = () =>{
-    return parseFloat(valor/0.82).toFixed(2)
-  }
+  const [valor, setValor] = useState(0) 
+  const result = (valor/0.82).toFixed(2);
   
-  
-  valor?.toString
-  const result = eval(parseFloat(valor/0.82).toFixed(2))
-  
-
  return (
 
 <div>
@@ -89,7 +80,7 @@ function App() {
         placeholder="0.00"
         step=".01"
         value={valor}
-        onChange={(e) => setValor(e.target.value)}
+        onChange={(e) => setValor(e.target.valueAsNumber)}
         
         
         
@@ -120,7 +111,7 @@ function App() {
         marginTop:15,
         textAlign: "center"
       }}
-      >R$ {result}</h1>
+      >R${result}</h1>
   </div>
 
   <div>
