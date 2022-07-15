@@ -15,7 +15,12 @@ function App() {
     <div style={{
     
     alignContent: "center",
-    alignItems: "center"
+    alignItems: "center",
+    backgroundColor: '#212F3D',
+    justifyContent:"center",
+    borderRadius:30,
+    display:"block",
+    
   }}
     >
 
@@ -23,7 +28,8 @@ function App() {
   <h1 style={{
     color: '#D3D3D3',
     textAlign: "center",
-    marginTop:50
+    marginTop:50,
+    padding:15
 
   }}>Calcule o valor correto a ser cobrado na Shopee! </h1>
   </div>
@@ -110,19 +116,27 @@ function App() {
         fontSize:50,
         fontStyle:'normal',
         fontWeight: 'bold',
-        marginTop:15,
-        textAlign: "center"
+        marginTop:10,
+        textAlign: "center",
+        padding: 20
       }}
       >R${result}</h1>
   </div>
 
+ 
+
+ 
+
+
+  </div>
+  
   <div>
        <div style={{
         fontSize:12,
         fontFamily: 'Arial, Helvetica, sans-serif',
         textAlign: 'center',
         marginBottom: 20,
-        marginTop:50        
+        marginTop:30        
        }}>
 
     <a  href="https://www.linkedin.com/in/matheus-dannebrock-906276153/" target='_blank'> 
@@ -160,8 +174,6 @@ function App() {
   </div>
 
 
-  </div>
-  
 </div>
 
 

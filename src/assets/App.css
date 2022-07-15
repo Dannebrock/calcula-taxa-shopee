@@ -1,9 +1,12 @@
 body{
     background: #121214;
-    flex: 1;
     backgroundColor: '#1C1C1C';
-    alignItems: 'center';
-    justifyContent: 'center';
-    width:'100%';
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    
+    
     
 }
