@@ -20,6 +20,7 @@ function App() {
     justifyContent:"center",
     borderRadius:30,
     display:"block",
+   
     
   }}
     >
@@ -123,10 +124,6 @@ function App() {
       >R${result}</h1>
   </div>
 
- 
-
- 
-
 
   </div>
   
@@ -134,9 +131,7 @@ function App() {
        <div style={{
         fontSize:12,
         fontFamily: 'Arial, Helvetica, sans-serif',
-        textAlign: 'center',
-        marginBottom: 20,
-        marginTop:30        
+        textAlign: 'center',      
        }}>
 
     <a  href="https://www.linkedin.com/in/matheus-dannebrock-906276153/" target='_blank'> 
@@ -155,7 +150,7 @@ function App() {
     padding: 20,
     fontSize:12,
     margin : 0,
-    marginBottom: 10,
+    marginBottom: 5,
     cursor: "pointer"
 
     }}>
