@@ -8,7 +8,9 @@ Aplicação desenvolvida para auxiliar os vendedores da plataforma  [Shopee](htt
 
 Utilizado o [Vite](https://vitejs.dev/) para criação do projeto utilizando React-Js.
 
+🖱️ - [Veja a aplicação funcionando no Vercel !](https://calcule-taxa-shopee.vercel.app/) 
 
+![image-20220716093242294](C:\Users\conta\AppData\Roaming\Typora\typora-user-images\image-20220716093242294.png)
 
 ## :rocket: Tecnologias
 
