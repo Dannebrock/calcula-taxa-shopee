@@ -10,7 +10,7 @@ Utilizado o [Vite](https://vitejs.dev/) para criação do projeto utilizando Rea
 
 🖱️ - [Veja a aplicação funcionando no Vercel !](https://calcule-taxa-shopee.vercel.app/) 
 
-![image-20220716093242294](C:\Users\conta\AppData\Roaming\Typora\typora-user-images\image-20220716093242294.png)
+![](C:\Users\conta\Downloads\iimage.jpg)
 
 ## :rocket: Tecnologias
 
